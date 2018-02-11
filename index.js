@@ -3,8 +3,7 @@ const fs = require('fs-extra');
 const unzip = require('unzip');
 const git = require('simple-git');
 
-//const start= "February 3, 2017";
-const start= "February 1, 2018";
+const start= "February 3, 2017";
 
 var date = new Date(Date.parse(start));
 var today = new Date();
